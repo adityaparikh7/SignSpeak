@@ -1,0 +1,6 @@
+opencv-python
+tensorflow
+torch
+mediapipe
+streamlit
+google-cloud-speech  # for speech-to-text if using Google STT API
