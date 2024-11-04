@@ -166,4 +166,4 @@ def extract_holistic_landmarks(video_source=0, save_file='holistic_landmarks.csv
 
 if __name__ == "__main__":
     extract_hand_landmarks(video_source=0, save_file='hand_landmarks.csv')
-    extract_holistic_landmarks(video_source=0, save_file='holistic_landmarks.csv')
+    # extract_holistic_landmarks(video_source=0, save_file='holistic_landmarks.csv')

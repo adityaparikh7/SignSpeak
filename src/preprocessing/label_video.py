@@ -9,14 +9,14 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 
 # Directory to store processed data
-output_dir = 'E:\Projects\Sign Language Project\SignSpeak\data\processed'
+output_dir = 'E:\Projects\Sign Language Project\SignSpeak\data\processed\simple_signs'
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
 # List of signs to label
 # Extend this list as needed
-signs = ['hello', 'thank_you', 'please', 'yes', 'no']
+signs = ['hello', 'thank_you', 'yes', 'no']
 
 
 def label_frames(video_source=0, save_file='labeled_hand_landmarks.csv'):

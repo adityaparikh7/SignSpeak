@@ -9,7 +9,7 @@
 # mp_drawing = mp.solutions.drawing_utils
 
 # # Create a directory to save captured images
-# save_dir = 'captured_images'
+# save_dir = 'E:\Projects\Sign Language Project\SignSpeak\data/raw'
 # if not os.path.exists(save_dir):
 #     os.makedirs(save_dir)
 
@@ -74,7 +74,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 # Create a directory to save captured images
 # save_dir = 'captured_images'
-save_dir = 'E:\Projects\Sign Language Project\SignSpeak\data/raw/C'
+save_dir = 'E:\Projects\Sign Language Project\SignSpeak\data/raw/'
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
