@@ -8,7 +8,7 @@ import cv2
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    "E:\Projects\Sign Language Project\cvzone\keras_model.h5", "E:\Projects\Sign Language Project\cvzone\labels.txt")
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ABC.h5", "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt")
 
 offset = 20
 imgSize = 300
