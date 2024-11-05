@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
-folder = "E:\Projects\Sign Language Project\SignSpeak\data/raw/J"
+folder = "E:\Projects\Sign Language Project\SignSpeak\data/raw/Z"
 counter = 0
 while True:
     success, img = cap.read()
