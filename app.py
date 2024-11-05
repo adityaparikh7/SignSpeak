@@ -7,10 +7,10 @@ from cvzone.HandTrackingModule import HandDetector
 
 # Initialize the classifier and hand detector
 classifier = Classifier(
-    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ABC.h5",
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ASL_100.h5",
     "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt"
 )
-detector = HandDetector(maxHands=1)
+detector = HandDetector(maxHands=2)
 
 # Streamlit app
 st.title("Sign Language Recognition")
@@ -19,7 +19,7 @@ stframe = st.empty()
 cap = cv2.VideoCapture(0)
 offset = 20
 imgSize = 300
-labels = ["A", "B", "C"]
+labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
 while cap.isOpened():
     success, img = cap.read()
