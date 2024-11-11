@@ -8,7 +8,8 @@ import cv2
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ASL_100.h5", "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt")
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ASL_BW_200_0.001.h5", 
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt")
 
 offset = 20
 imgSize = 300
