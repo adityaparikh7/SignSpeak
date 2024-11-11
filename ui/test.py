@@ -4,11 +4,11 @@ from cvzone.ClassificationModule import Classifier
 from cvzone.HandTrackingModule import HandDetector
 import cv2
 
-
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 classifier = Classifier(
-    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ASL_100.h5", "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt")
+    "/Users/raheel/Developer/LYPROJECT/SignSpeak/src/recognition/models/testing models/raheel_ASL_ABC.h5",
+    "/Users/raheel/Developer/LYPROJECT/SignSpeak/src/recognition/models/final models/labels.txt")
 
 offset = 20
 imgSize = 300

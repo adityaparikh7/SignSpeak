@@ -23,13 +23,12 @@ counter = 0
 if platform.system() == "Windows":
     folder = r"E:\Projects\Sign Language Project\SignSpeak\data\raw\Z"
 else:
-    folder = "/Users/raheel/Developer/LYPROJECT/SignSpeak/data/raheel_raw/C"
+    folder = "/Users/raheel/Developer/LYPROJECT/SignSpeak/data/raheel_raw/B"
 
 # Ensure folder exists
 os.makedirs(folder, exist_ok=True)
 
 print("Press 's' to save an image, or 'q' to quit.")
-
 # Function for preprocessing image to reduce lighting dependence
 def preprocess_image(img):
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
