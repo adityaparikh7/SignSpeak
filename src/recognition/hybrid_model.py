@@ -101,7 +101,7 @@ model.compile(optimizer=Adam(learning_rate=learning_rate), loss='categorical_cro
 model.summary()
 
 # Train the model
-history = model.fit(X_train, y_train, epochs=200, validation_data=(X_val, y_val), batch_size=16)
+history = model.fit(X_train, y_train, epochs=20, validation_data=(X_val, y_val), batch_size=16)
 
 # Save the trained model
 model.save('E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/testing.h5')

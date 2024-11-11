@@ -21,7 +21,7 @@ counter = 0
 
 # Define folder path based on operating system
 if platform.system() == "Windows":
-    folder = r"E:\Projects\Sign Language Project\SignSpeak\data\raw\Z"
+    folder = "E:/Projects/Sign Language Project/SignSpeak/data/raheel_raw/X"
 else:
     folder = "/Users/raheel/Developer/LYPROJECT/SignSpeak/data/raheel_raw/B"
 

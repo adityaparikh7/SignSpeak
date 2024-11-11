@@ -9,6 +9,10 @@ detector = HandDetector(maxHands=1)
 classifier = Classifier(
     "/Users/raheel/Developer/LYPROJECT/SignSpeak/src/recognition/models/testing models/raheel_ASL_ABC.h5",
     "/Users/raheel/Developer/LYPROJECT/SignSpeak/src/recognition/models/final models/labels.txt")
+=======
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\ASL_BW_200_0.001.h5", 
+    "E:\Projects\Sign Language Project\SignSpeak\src/recognition\models/final models\labels.txt")
+>>>>>>> 4acb9cf47bde83cd389523fe905152489a3bcae9
 
 offset = 20
 imgSize = 300
